@@ -9,9 +9,9 @@ button.addEventListener("click", function() {
 
 function toggleBackImage() {
     if (isDefault) {
-        button.style.backgroundImage = "url(resources/audio-btn-pause.jfif)";
+        button.style.backgroundImage = "url(./resources/audio-btn-pause.jfif)";
     } else {
-        button.style.backgroundImage = "url(resources/audio-btn.png)";
+        button.style.backgroundImage = "url(./resources/audio-btn.png)";
     }
     isDefault = !isDefault;
 }
