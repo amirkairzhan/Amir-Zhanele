@@ -1,5 +1,5 @@
-async function loadLanguage(kz) {
-    const response = await fetch(`${kz}.json`);
+async function loadLanguage(lang) {
+    const response = await fetch(`${lang}.json`);
     const messages = await response.json();
     return messages;
 }
