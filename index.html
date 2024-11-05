@@ -14,6 +14,7 @@
         <option value="ru">RU</option>
         <option value="kz">KZ</option>
       </select>
+
       <div class="head__text">
         <h1 class="head__title">Амир & Жанеле</h1>
         <div class="audio-btn__wrapper">
@@ -21,7 +22,7 @@
           <button class="audio__btn"></button>
           <img class="audio__img" src="./resources/right.JPEG" alt="right">
         </div>
-        <p class="head__description">
+        <p id="wedding-invitation" class="head__description">
           Приглашение на свадьбу
         </p>
       </div>
@@ -29,9 +30,9 @@
 
     <main class="main">
       <div class="date__wrapper">
-        <p class="date__week">СУББОТА</p>
+        <p class="date__week" id="saturday">СУББОТА</p>
         <div class="date__date">
-          <p class="date__month">февраль</p>
+          <p class="date__month" id="february">февраль</p>
           <p class="date__day">22</p>
           <p class="date__year">2025</p>
         </div>
@@ -39,43 +40,43 @@
       </div>
 
       <div class="countdown">
-        <h2 class="countdown__title">До мероприятия осталось:</h2>
+        <h2 id="countdown-title" class="countdown__title">До мероприятия осталось:</h2>
         <div class="countdown__timer">
           <div class="timer">
             <h2 id="week" class="timer__number">00</h2>
-            <p class="timer__text">недель</p>
+            <p id="week-text" class="timer__text">недель</p>
           </div>
           <div class="timer">
             <h2 id="day" class="timer__number">00</h2>
-            <p class="timer__text">дней</p>
+            <p id="day-text" class="timer__text">дней</p>
           </div>
           <div class="timer">
             <h2 id="hour" class="timer__number">00</h2>
-            <p class="timer__text">часов</p>
+            <p id="hour-text" class="timer__text">часов</p>
           </div>
           <div class="timer">
             <h2 id="min" class="timer__number">00</h2>
-            <p class="timer__text">минут</p>
+            <p id="min-text" class="timer__text">минут</p>
           </div>
           <div class="timer">
             <h2 id="sec" class="timer__number">00</h2>
-            <p class="timer__text">секунд</p>
+            <p id="sec-text" class="timer__text">секунд</p>
           </div>
         </div>
       </div>
 
       <div class="invitation">
         <div class="invitation__content">
-          <h2 class="invitation__title">Дорогой гость!</h2>
-          <p class="invitation__text">Мы рады сообщить Вам, что 22 февраля 2025 состоится самое главное торжество в нашей жизни - день нашей свадьбы!</p>
-          <p class="invitation__text">Приглашаем Вас разделить с нами радость этого незабываемого дня.</p>
+          <h2 id="invitation-title" class="invitation__title">Дорогой гость!</h2>
+          <p id="invitation-text-1" class="invitation__text">Мы рады сообщить Вам, что 22.02.2025 состоится самое главное торжество в нашей жизни - день нашей свадьбы!</p>
+          <p id="invitation-text-2" class="invitation__text">Приглашаем Вас разделить с нами радость этого незабываемого дня.</p>
         </div>
       </div>
       
       <div class="location">
-        <h2 class="location__title">Место проведения:</h2>
-        <p class="location__text">Ресторанный комплекс <span>"Khan Saray"</span></p>
-        <p class="location__text">Адрес: г.Кокшетау, Микрорайон Коктем, 1/1.</p>
+        <h2 id="location-title" class="location__title">Место проведения:</h2>
+        <p id="location-text-1" class="location__text">Ресторанный комплекс - "Khan Saray"</p>
+        <p id="location-text-2" class="location__text">Адрес: г.Кокшетау, Микрорайон Коктем, 1/1.</p>
       </div>
     </main>
 
@@ -93,7 +94,7 @@
       <audio
         class="audio"
         controls="controls"
-        src="./resources/music.mp3"></audio>
+        src="./resources/Lana Del Rey - Young and Beautiful (minus 11).mp3"></audio>
     </footer>
 
     <script src="language.js"></script>
