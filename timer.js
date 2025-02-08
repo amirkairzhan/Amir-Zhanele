@@ -6,7 +6,7 @@ const sec = document.getElementById('sec');
 
 const currentYear = new Date().getFullYear();
 
-const weddingDate = new Date(`22 Feb 2025 00:00:00`);
+const weddingDate = new Date(`22 Feb 2025 15:00:00`);
 
 function countdownTimer() {
     const todayDate = Date.now();
